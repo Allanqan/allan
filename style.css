@@ -1,0 +1,102 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+body {
+  background: #FAFAFA;
+  color: #E5890A;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: medium;
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #9D5C0D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #E5890A;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #9D5C0D;
+  font-weight: bold;
+  font-size: 16px;
+}
+a:hover {
+  color: #FFC286;
+}
+
+.img-circle {
+  border-radius: 60%;
+}
+.shadow{
+  box-shadow: 3px 3px 1px rgb(236, 234, 234);
+}
+
+.btn-maroon {
+  background-color: #630000;
+  color: #d8d8d8;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.social-media {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social-media li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.social-media i {
+  font-size: 50px;
+  color: rgb(189, 188, 188);
+}
+
+.social-media i:hover {
+  color: #630000;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
